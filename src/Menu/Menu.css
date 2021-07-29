@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Varela Round', sans-serif;
+}
+nav {
+    position: relative;
+    background: silver;
+    height: 250px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 250px;
+}
+li {
+    text-align: center;
+    list-style: none;
+    background: tan;
+    border-radius: 15px;
+    width: 150px;
+    height: 50px;
+    line-height: 3em;
+    letter-spacing: 0.3em;
+}
+a{
+    width: 150px;
+    height: 50px;
+    text-decoration: none;
+    color: black;
+}
