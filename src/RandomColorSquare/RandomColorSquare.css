@@ -1,0 +1,6 @@
+div#square{
+    width:250px;
+    height: 250px;
+    background-color: brown;
+    cursor: pointer;
+}

@@ -7,6 +7,7 @@ import Menu from './Menu/Menu';
 import MenuItem from './Menu/MenuItem/MenuItem';
 import Counter from './Counter/Counter';
 import StudentPicker from './StudentPicker';
+import RandomColorSquare from './RandomColorSquare/RandomColorSquare';
 
 
 function App() {
@@ -23,8 +24,10 @@ function App() {
         <MenuItem label ="Whatsapp" link = "https://www.WHATSAPP.com/" />
         <MenuItem label ="Facebook" link = "https://www.FACEBOOK.com/" />
         <MenuItem label ="Instagram" link = "https://www.INSTAGRAM.com/" />
+        
       </Menu>
 
+      <RandomColorSquare />
       {/* <StudentPicker/>
       <button onClick={clickHandler}>Click ME</button>
       <Counter /> */}

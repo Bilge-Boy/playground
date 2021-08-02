@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Varela Round', sans-serif;
+    
 }
 nav {
     position: relative;
@@ -24,7 +24,15 @@ li {
     width: 150px;
     height: 50px;
     line-height: 3em;
+    transition: letter-spacing 0.3s, background 0.1s ;
+    cursor: pointer;
+}
+li:hover{
+    background: rgb(167, 142, 111);
     letter-spacing: 0.3em;
+}
+li:active{
+    background: rgb(235, 154, 56);
 }
 a{
     width: 150px;
